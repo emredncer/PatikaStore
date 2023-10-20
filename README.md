@@ -1,52 +1,6 @@
 ```markdown
 # PatikaStore - An Inventory Management System
 
-![Java Version](https://img.shields.io/badge/Java-11-blue)
-
-PatikaStore is a simple command-line-based inventory management system written in Java. It allows you to manage two types of products: Notebooks and Mobile Phones. You can perform various operations like adding, filtering, and deleting products, as well as sorting brands alphabetically. This README provides an overview of how to use the application and its structure.
-
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [License](#license)
-
-## Prerequisites
-
-Before using PatikaStore, you need to have the following:
-
-- Java 11 or higher installed on your system. You can download it from [Oracle's website](https://www.oracle.com/java/technologies/javase-downloads.html) or use OpenJDK.
-
-## Getting Started
-
-1. Clone this repository to your local machine using Git:
-
-   ```bash
-   git clone https://github.com/your-username/patika-store.git
-   ```
-
-2. Change the directory to the project folder:
-
-   ```bash
-   cd patika-store
-   ```
-
-3. Compile the Java source files:
-
-   ```bash
-   javac *.java
-   ```
-
-4. Run the application:
-
-   ```bash
-   java Main
-   ```
-
-Now, you can start using the PatikaStore inventory management system.
-
 ## Usage
 
 Upon running the application, you'll be presented with the main menu, which offers the following options:
@@ -87,12 +41,4 @@ The project is organized into several Java classes:
 - `MobilePhoneOperation.java`: Provides operations to manipulate Mobile Phone products.
 - `Brand.java`: Defines the Brand class for managing brand names and sorting them.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-Feel free to open issues or contribute to the project. Enjoy using PatikaStore!
-
-```
-
-Please replace `"https://github.com/your-username/patika-store.git"` with the actual URL of your GitHub repository. Make sure to include detailed instructions on how to set up and use your project. You can also add sections about contributing, troubleshooting, or any other relevant information you think users might need.
+Have fun!
